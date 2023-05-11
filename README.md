@@ -1,51 +1,24 @@
-# battleships-game
-javaScript HTML and CSS 
+Problem Statement:
+Develop a Sea Battle Game where two players can place their ships on a board and take turns to hit the opponent's ship. The game should allow players to play against each other remotely, without the need for physical proximity.
 
-Welcome to another JavaScript Game walkthrough! In this game, we learn not only how to make the popular retro game battleships, but we team up with YouTubers codeSTACKr and Web Dev Simplified  in order to make it multiplayer and style it to the MAX!
+Scope:
+The Sea Battle game will be an online multiplayer game that allows two players to compete against each other. The game will include a graphical user interface that displays the sea, the player's ships, and the player's opponent's ships. Each player will be able to see only their own ships and their opponent's hits and misses on their grid. The game will end when one player sinks all of the other player's ships.
 
-Watch the full video here: https://youtu.be/U64vIhh0TyM
+Users:
+The primary users of the Sea Battle Game are casual gamers who want to play an engaging and challenging game with their friends or a random players online.
 
 
+Functionalities:
+1. Game Board: The game board will consist of a 10x10 grid where players can place their ships and make moves.
 
-In this walkthrough we will:
-- make 5 draggable ships
-- rotate the ships prior to dragging
-- make the computer take random goes
-- display results based on who has sunk whos ship
-- display the winner
+2. Ship Placement: Players can place their ships on the game board by selecting the size and direction of the ship.
 
-This tutorial will be in pure JavaScript, so no canvas will be used.
+3. Hit or Miss: When a player hits their opponent's ship, it will be marked as a hit, and when they miss, it will be marked as a miss.
 
-We will not be focusing too much on the styling, this video will be all about the logic of the game. Please watch the next two videos in the series to have a completed multiplayer version that is styled.
+4. Turn-Based Gameplay: The game will proceed in turns, with each player taking a turn to hit their opponent's ships.
 
-After watching this video, please head over to:
-Codestackr to make it multiplayer: https://youtu.be/TpAwggQJPUQ
-Web Dev Simplified for the styling: https://youtu.be/G6JTM-zt-dQ
+5. Game Over: The game continues until one player has sunk all the opponent's ships.
 
-### [Click here for a live Demo of the final game](http://battleship.tech/)
+6. Winner Declaration: The game will end when one player successfully sinks all of their opponent's ships. The winner will be declared and displayed on the screen.
 
-Thanks for watching! If you liked watching this video, please do hit the  Subscribe or Like button so I know to make more!
-
-### MIT Licence
-
-Copyright (c) 2020 Ania Kubow
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software. 
-
-*Translation: Ofcourse you can use this for you project! Just make sure to say where you got this from :)
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
-OR OTHER DEALINGS IN THE SOFTWARE.
+7. Single Player Mode: In addition to multiplayer mode, the game will also have a single player mode where players can play against an Computer opponent.
